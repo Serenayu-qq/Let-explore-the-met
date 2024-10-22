@@ -161,14 +161,24 @@ body {
   footer{
     background:black;
     color:gray;
-    padding: 10px 20px;
+    padding: 20px;
     text-align: center;
   }
 p{
     color:rgb(177, 177, 177);
 }
 
+section{
+    background: #d39f65;
+    padding:10px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 
+}
 div{
   background: #d39f65;
+  width: 100px;
+  text-align: center;
+
 }
