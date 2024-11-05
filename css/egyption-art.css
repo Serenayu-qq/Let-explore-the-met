@@ -83,7 +83,7 @@ p{
 }
 
 section{
-    background: #b38f58;
+    background: #706556;
     padding:8px 0 0 0;
     display: flex;
     flex-direction: row;
@@ -152,8 +152,12 @@ body {
     cursor: pointer;
 }
 .arrow.left {
-    left: 0;
+  left: 0;
+  z-index: 99;
 }
 .arrow.right {
-    right: 0;
+  right: 0;
+  z-index: 99;
+
 }
+
