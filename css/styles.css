@@ -56,17 +56,17 @@ body {
 }
 
 
-  header{
-     background:black;
-     background-image:url(../images/New\ front\ .jpg);
-     background-size: 80%;
-     background-position: center;
-     padding: 20px;
-     height:500px;
-     text-align: center;
-  }
+header{
+  background:black;
+  background-image:url(../images/New\ front\ .jpg);
+  background-size: 80%;
+  background-position: center;
+  padding: 20px;
+  height:500px;
+  text-align: center;
+}
 
-    /*responsive grid*/
+      /*responsive grid*/
   @media screen and (max-width:1300px) {
     header{
         height:500px;
@@ -113,6 +113,7 @@ body {
         
     }
 }
+
 
   header a {
     color:rgb(255, 255, 255);
@@ -182,5 +183,8 @@ p{
     margin-left:30px;
   
 }
+
+
+
 
 

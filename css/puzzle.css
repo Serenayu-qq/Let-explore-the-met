@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/New\ front\ .jpg) no-repeat center center fixed;
+  background-size: cover;
+
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  
+}
+
+
+body a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main {
+  width:100vw;
+  scroll-behavior: smooth;
+}
+
+img {
+  width:100%;
+  height: auto;
+}
+
+
+
+.features{
+  background:rgb(0, 0, 0);
+  color: grey;
+  padding:20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.features figure{
+  margin: auto;
+  width: 100px;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style-type:none;
+}
+
+li{
+  display: inline-block;
+  background:none;
+  border-radius:30px;
+  padding:10px;
+  margin-left:30px;
+  background-color: rgb(0, 0, 0);
+}
+
+li:hover{
+  background-color: rgb(0, 0, 0);
+}
+li:first-child{
+  margin-left:0;
+}
+
+footer{
+  background:black;
+  color:gray;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
+.container {
+  padding: 20px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.puzzle-text {
+  font-size: 2em;
+  color: #FFFFFF;
+  text-decoration: none;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.puzzle-text:hover {
+  transform: scale(1.2);
+  text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF;
+}
+
+

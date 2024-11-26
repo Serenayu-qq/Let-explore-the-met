@@ -1,0 +1,70 @@
+body {
+    background-color: hsl(0, 0%, 18%);
+    color: #000; /* 黑色字体 */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 返回主页按钮样式 */
+.back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:30px;
+    transition: all 0.3s;
+}
+
+/* 返回主页按钮悬停效果 */
+.back-button:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+/* 内容容器样式 */
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+/* 左侧照片样式 */
+.photo-container {
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.photo {
+    width: 400px;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* 照片悬停效果 */
+.photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* 右侧文字介绍样式 */
+.text-container {
+    flex: 1;
+    max-width: 600px;
+    color: #c0a820;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
