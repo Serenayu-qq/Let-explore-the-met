@@ -7,6 +7,12 @@ const kittens = [
 "https://images.metmuseum.org/CRDImages/ep/original/DP-411-01.jpg?_gl=1*1x7bxli*_gcl_au*MTQ5NzMxMzY0NC4xNzI1MDMwMjQy*_ga*ODM2MTc3NDcyLjE3MjUwMzAyNDI.*_ga_Y0W8DGNBTB*MTczMjUxNDYwNy40OS4xLjE3MzI1MTQ2NDYuMC4wLjA.",
 "https://images.metmuseum.org/CRDImages/ep/original/DP-19709-001.jpg",
 "https://images.metmuseum.org/CRDImages/gr/original/DT11982.jpg?_gl=1*f7x2at*_gcl_au*MTQ5NzMxMzY0NC4xNzI1MDMwMjQy*_ga*ODM2MTc3NDcyLjE3MjUwMzAyNDI.*_ga_Y0W8DGNBTB*MTczMjUxNDYwNy40OS4xLjE3MzI1MTQ5MDAuMC4wLjA.",
+"https://images.metmuseum.org/CRDImages/ep/original/DP356133.jpg?_gl=1*1te55a0*_gcl_au*MTQ5NzMxMzY0NC4xNzI1MDMwMjQy*_ga*ODM2MTc3NDcyLjE3MjUwMzAyNDI.*_ga_Y0W8DGNBTB*MTczMjYwODUzNS41MS4xLjE3MzI2MDkyMjQuMC4wLjA.",
+"https://images.metmuseum.org/CRDImages/eg/original/DP248993.jpg?_gl=1*1y531hp*_gcl_au*MTQ5NzMxMzY0NC4xNzI1MDMwMjQy*_ga*ODM2MTc3NDcyLjE3MjUwMzAyNDI.*_ga_Y0W8DGNBTB*MTczMjYwODUzNS41MS4xLjE3MzI2MDkzNTQuMC4wLjA.",
+"https://images.metmuseum.org/CRDImages/gr/original/DP143704.jpg",
+"https://images.metmuseum.org/CRDImages/ep/original/DT503.jpg",
+"https://images.metmuseum.org/CRDImages/gr/original/DP144130.jpg",
+
 ];
 const startPos = [
   { x: 164, y: 56 },
